@@ -1,0 +1,5 @@
+
+[submodule "kefir"]
+	path = kefir
+	url = https://github.com/protopopov1122/kefir
+	branch = backend

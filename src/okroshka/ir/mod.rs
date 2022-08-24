@@ -1,0 +1,21 @@
+pub mod core;
+pub mod datatype;
+pub mod function;
+pub mod string_literal;
+pub mod symbol;
+pub mod data;
+pub mod assembly;
+pub mod instr;
+pub mod block;
+pub mod module;
+
+pub use crate::okroshka::ir::core::*;
+pub use crate::okroshka::ir::datatype::*;
+pub use crate::okroshka::ir::function::*;
+pub use crate::okroshka::ir::string_literal::*;
+pub use crate::okroshka::ir::symbol::*;
+pub use crate::okroshka::ir::data::*;
+pub use crate::okroshka::ir::assembly::*;
+pub use crate::okroshka::ir::block::*;
+pub use crate::okroshka::ir::instr::*;
+pub use crate::okroshka::ir::module::*;
